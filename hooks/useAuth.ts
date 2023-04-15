@@ -36,10 +36,10 @@ const useAuth = () => {
   };
 
   const profileFromGithub: {
-    nickname: string;
+    nickName: string;
     avatarUrl: string;
   } = {
-    nickname: session?.user?.user_metadata.user_name,
+    nickName: session?.user?.user_metadata.user_name,
     avatarUrl: session?.user?.user_metadata.avatar_url,
   };
 

@@ -1,4 +1,4 @@
-import LogoutButton from "./logoutButton";
+import LogoutButton from "./LogoutButton";
 import useAuth from "hooks/useAuth";
 
 type Props = {
